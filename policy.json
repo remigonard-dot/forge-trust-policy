@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "model": "single-owner-explicit-authorization",
+  "independent_human_review": false,
+  "candidate_execution_authorized": false,
+  "positive_certification_enabled": false,
+  "public_repository_content": "generic-policy-only",
+  "public_self_hosted_runner": "forbidden",
+  "policy_reference": "full-commit-and-blob-sha",
+  "workflow_authority": "external-to-candidate",
+  "owner_authorization": "authenticated-expiring-single-use-exact-inputs",
+  "test_evidence": "trusted-harness-outside-candidate-boundary",
+  "candidate_stdout_stderr_exit_junit": "diagnostic-only",
+  "adversarial_false_pass_control": "mandatory-rejection",
+  "missing_or_unverifiable_evidence": "deny",
+  "deployment_authorized": false,
+  "live_authorized": false
+}
